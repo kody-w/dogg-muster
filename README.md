@@ -64,3 +64,19 @@ chain, your outlook, same clock — announce it on the spine's registry
 <!--trust-->
 No ratings yet — used this chain? [Rate it](../../issues/new?template=rate.yml): valid ratings publish automatically as verifiable frames.
 <!--/trust-->
+
+## Summon this node
+
+A MISSION chant — 14 words — carries the `muster:@kody-w/dogg-muster` dimension's identity, its tick, a hash prefix that pins the exact frame, and a quantized snapshot of plan_version, muster_points, roles.
+
+```
+KNELL CAST LOST CROWN FORGE STALLION TIDE ANVIL ELIXIR WYRM FORGE FORGE FORGE OSPREY
+```
+
+`dogg:1:14:BIALqeAAAYAIwB0kkAAAAAF2`
+
+Tap to decode: [https://kody-w.github.io/dogg/recite.html#dogg:1:14:BIALqeAAAYAIwB0kkAAAAAF2](https://kody-w.github.io/dogg/recite.html#dogg:1:14:BIALqeAAAYAIwB0kkAAAAAF2)
+
+This chant carries three things: which dimension it names (`muster:@kody-w/dogg-muster`), which tick and frame it was cut from (tick 1, hash prefix `20023`), and the field values above, quantized (log-quantized, ~0.3% relative (1e-6 … 1e15)) — enough to recognize the node and sanity-check a claim about it without touching the network.
+
+This is a snapshot of one tick (tick 1) — the numbers move as the stream advances, so re-mint with `python3 tools/dogg.py mission muster:@kody-w/dogg-muster` for the latest.
