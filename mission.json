@@ -4,32 +4,32 @@
  "fields": [
   {
    "name": "plan_version",
-   "path": "payload.plan.version",
+   "path": "plan.version",
    "unit": "revision"
   },
   {
    "name": "muster_points",
-   "path": "payload.plan.muster_points.length",
+   "path": "plan.muster_points.length",
    "unit": "points"
   },
   {
    "name": "roles",
-   "path": "payload.plan.roles.length",
+   "path": "plan.roles.length",
    "unit": "roles"
   },
   {
    "name": "check_in_windows",
-   "path": "payload.plan.check_in_windows_hours.length",
+   "path": "plan.check_in_windows_hours.length",
    "unit": "windows/day"
   },
   {
    "name": "comms_fallback_channels",
-   "path": "payload.plan.comms_fallback.length",
+   "path": "plan.comms_fallback.length",
    "unit": "channels"
   },
   {
    "name": "tick",
-   "path": "payload.tick",
+   "path": "tick",
    "unit": "spine tick index"
   }
  ],
