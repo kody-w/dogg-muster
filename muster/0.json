@@ -1,0 +1,68 @@
+{
+  "spec": "rapp/1",
+  "kind": "muster.snapshot",
+  "stream_id": "muster:@kody-w/dogg-muster",
+  "seq": 0,
+  "utc": "2026-08-28T17:49:17.043Z",
+  "payload": {
+    "tick": 465,
+    "tick_frame": "cb1bb7f89de1efbfced38889c067e30e3d74817f71173ab51ca7f9c32f877e93",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-08-28T17:49:17.043Z",
+    "plan": {
+      "version": 1,
+      "muster_points": [
+        {
+          "name": "PLACEHOLDER_POINT_PRIMARY",
+          "what3words_or_coords": "PLACEHOLDER",
+          "order": 1
+        },
+        {
+          "name": "PLACEHOLDER_POINT_SECONDARY",
+          "what3words_or_coords": "PLACEHOLDER",
+          "order": 2
+        },
+        {
+          "name": "PLACEHOLDER_POINT_FALLBACK",
+          "what3words_or_coords": "PLACEHOLDER",
+          "order": 3
+        }
+      ],
+      "roles": [
+        {
+          "role": "PLACEHOLDER_ROLE_LEAD",
+          "holder": "PLACEHOLDER"
+        },
+        {
+          "role": "PLACEHOLDER_ROLE_NAVIGATOR",
+          "holder": "PLACEHOLDER"
+        },
+        {
+          "role": "PLACEHOLDER_ROLE_COMMS",
+          "holder": "PLACEHOLDER"
+        },
+        {
+          "role": "PLACEHOLDER_ROLE_MEDICAL",
+          "holder": "PLACEHOLDER"
+        }
+      ],
+      "check_in_windows_hours": [
+        0,
+        6,
+        12,
+        18
+      ],
+      "comms_fallback": [
+        "PLACEHOLDER_CHANNEL_PRIMARY",
+        "PLACEHOLDER_CHANNEL_SECONDARY",
+        "PLACEHOLDER_CHANNEL_LAST_RESORT"
+      ]
+    },
+    "about": "A federated node of the global tick network: a TEMPLATE muster (rendezvous) plan, one frame per observed tick, keyed to the spine's tick anchors so it joins every other node's data on the same clock. Every value is a PLACEHOLDER — see README."
+  },
+  "payload_hash": "3fe53fd0d6e0bd4df55322ac4372cade6ce7d121dd3de924967560b4f942d19d",
+  "prev": null,
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "458cd74c2096b03efa9f768faeadef0d8682e90b04fdcde8cbcd8fc53534cf6a"
+}

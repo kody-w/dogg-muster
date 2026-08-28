@@ -1,0 +1,13 @@
+{
+  "schema": "rapp/1",
+  "rappid": "rappid:@kody-w/dogg-muster:a0732ebedb9a7d6865403a7b6a00d52407da9a015659aec38b7029f6b6354801",
+  "kind": "node",
+  "name": "dogg-muster",
+  "host": "github.com",
+  "owner": "kody-w",
+  "repo": "dogg-muster",
+  "github": "https://github.com/kody-w/dogg-muster",
+  "parent_rappid": "rappid:@kody-w/dogg:398899d4c850bc28fabe33115c52436def0d485c34753e9bbef06e4c283892b4",
+  "minted_at": "2026-08-28T17:48:51.505Z",
+  "notes": "Federated node of the global tick network; descends from the spine thread. Minted once per RAPP spec §6.2 — uuid-entropy tail, never a name-hash."
+}
