@@ -1,0 +1,67 @@
+{
+  "spec": "rapp/1",
+  "kind": "muster.snapshot",
+  "stream_id": "muster:@kody-w/dogg-muster",
+  "seq": 31,
+  "utc": "2026-09-26T03:43:08.212Z",
+  "payload": {
+    "tick": 1301,
+    "tick_frame": "2a35bee938390800e117706f4b7ae5680dced6c82fb0c6282b780002b5f3f53e",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-09-26T03:43:08.212Z",
+    "plan": {
+      "version": 1,
+      "muster_points": [
+        {
+          "name": "PLACEHOLDER_POINT_PRIMARY",
+          "what3words_or_coords": "PLACEHOLDER",
+          "order": 1
+        },
+        {
+          "name": "PLACEHOLDER_POINT_SECONDARY",
+          "what3words_or_coords": "PLACEHOLDER",
+          "order": 2
+        },
+        {
+          "name": "PLACEHOLDER_POINT_FALLBACK",
+          "what3words_or_coords": "PLACEHOLDER",
+          "order": 3
+        }
+      ],
+      "roles": [
+        {
+          "role": "PLACEHOLDER_ROLE_LEAD",
+          "holder": "PLACEHOLDER"
+        },
+        {
+          "role": "PLACEHOLDER_ROLE_NAVIGATOR",
+          "holder": "PLACEHOLDER"
+        },
+        {
+          "role": "PLACEHOLDER_ROLE_COMMS",
+          "holder": "PLACEHOLDER"
+        },
+        {
+          "role": "PLACEHOLDER_ROLE_MEDICAL",
+          "holder": "PLACEHOLDER"
+        }
+      ],
+      "check_in_windows_hours": [
+        0,
+        6,
+        12,
+        18
+      ],
+      "comms_fallback": [
+        "PLACEHOLDER_CHANNEL_PRIMARY",
+        "PLACEHOLDER_CHANNEL_SECONDARY",
+        "PLACEHOLDER_CHANNEL_LAST_RESORT"
+      ]
+    }
+  },
+  "payload_hash": "6943be3704c422588d78a4beae47b617620eeac4f54de5055a0f66f1ab0bd8c3",
+  "prev": "baa72bc80adc87be3b5e73a2115ad63c448b59708e29b8f0b811c1eb57a805e0",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "dfb9c7cf120e0c90833091984a71a96349aae5df71a74cf8341602d42b354ea1"
+}
